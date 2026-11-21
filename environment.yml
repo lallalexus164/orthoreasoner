@@ -1,0 +1,17 @@
+name: orthoreasoner-rc
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch>=2.1
+  - numpy>=1.24
+  - scikit-learn>=1.3
+  - pip
+  - pip:
+      - omegaconf>=2.3
+      - pytest>=8
+      - ruff>=0.6
+      - mypy>=1.11
+      - black>=24
+      - isort>=5

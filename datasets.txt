@@ -1,0 +1,23 @@
+MURA musculoskeletal radiographs
+Status: verified reachable on 2026-07-07
+Landing page: https://stanfordmlgroup.github.io/competitions/mura/
+Current dataset record: https://stanford.redivis.com/datasets/cv1a-apytk3j44
+Access: Stanford AIMI Redivis access workflow
+License: dataset terms on Redivis
+
+MRNet knee MRI
+Status: verified reachable on 2026-07-07
+Landing page: https://stanfordmlgroup.github.io/competitions/mrnet/
+Current dataset record: https://stanford.redivis.com/datasets/4a2c-4cpkzrn2c
+Access: Stanford AIMI Redivis access workflow
+License: dataset terms on Redivis
+
+Private multicenter rotator cuff cohort
+Status: restricted
+Access: originating site governance approval
+License: not public
+
+Pa-ViT shoulder MRI grading benchmark
+Status: manuscript cited public benchmark but no canonical dataset URL was present in the manuscript text
+Access: use the source publication and institutional data release instructions
+License: not stated in the manuscript

@@ -1,0 +1,6 @@
+seed: 17
+extends: main.yaml
+ablation: no_typed_bus
+expected_decision_auroc: 0.749
+expected_decision_kappa: 0.76
+expected_diagnostic_auroc: 0.985

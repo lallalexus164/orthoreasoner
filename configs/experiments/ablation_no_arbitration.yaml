@@ -1,0 +1,6 @@
+seed: 17
+extends: main.yaml
+ablation: no_arbitration
+expected_decision_auroc: 0.734
+expected_decision_kappa: 0.74
+expected_diagnostic_auroc: 0.986

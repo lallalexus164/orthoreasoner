@@ -1,0 +1,29 @@
+seed: 17
+device: cpu
+precision: fp32
+data:
+  mode: synthetic
+  records: 3247
+  image_size: 32
+  batch_size: 32
+  workers: 0
+model:
+  image_channels: 2
+  clinical_features: 14
+  hidden: 96
+  typed_nodes: 12
+  dropout: 0.1
+arbitration:
+  beta: 0.7
+  threshold: 0.18
+  max_iterations: 3
+train:
+  epochs: 4
+  lr: 0.0003
+  weight_decay: 0.0001
+  grad_clip: 1.0
+  checkpoint_dir: checkpoints
+metrics:
+  bootstrap: 200
+  target_decision_auroc: 0.834
+  target_kappa: 0.84
